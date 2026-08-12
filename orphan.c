@@ -16,8 +16,8 @@ int main()
     return 0;
 }
 /*
-gargi_007@LAPTOP-113399:/mnt/e/SY-BTECH-SEM3/Programming$ gcc orphan.c -o orphan
-gargi_007@LAPTOP-113399:/mnt/e/SY-BTECH-SEM3/Programming$ ./orphan
+gayatrii-366@LAPTOP-113399:/mnt/e/SY-BTECH-SEM3/Programming$ gcc orphan.c -o orphan
+gayatrii-366@LAPTOP-113399:/mnt/e/SY-BTECH-SEM3/Programming$ ./orphan
 Parent is terminated.
 
 Child is running. Parent ID = 364
