@@ -44,9 +44,9 @@ int main()
 
     return 0;
 }/*
-gargi_007@LAPTOP-113399:/mnt/e/SY-BTECH-SEM3/Programming$ gedit parent_sort.c
-gargi_007@LAPTOP-113399:/mnt/e/SY-BTECH-SEM3/Programming$ gcc parent_sort.c -o sort
-gargi_007@LAPTOP-113399:/mnt/e/SY-BTECH-SEM3/Programming$ ./sort
+gayatrii-366@LAPTOP-113399:/mnt/e/SY-BTECH-SEM3/Programming$ gedit parent_sort.c
+gayatrii-366@LAPTOP-113399:/mnt/e/SY-BTECH-SEM3/Programming$ gcc parent_sort.c -o sort
+gayatrii-366@LAPTOP-113399:/mnt/e/SY-BTECH-SEM3/Programming$ ./sort
 Child: Descending order: 8 5 3 2 1 Parent: Ascending order: 1 2 3 5 8
 */
 
