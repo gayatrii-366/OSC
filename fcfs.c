@@ -51,3 +51,23 @@ int main() {
 
     return 0;
 }
+
+/*Enter number of processes: 4
+Enter Arrival Time and Burst Time for process 1: 5 0
+Enter Arrival Time and Burst Time for process 2: 4 8
+Enter Arrival Time and Burst Time for process 3: 4 6
+Enter Arrival Time and Burst Time for process 4: 3 6
+
+Process	AT	BT	CT	TAT	WT
+P1	5	0	5	0	0
+P2	4	8	13	9	1
+P3	4	6	19	15	9
+P4	3	6	25	22	16
+
+Gantt Chart:
+| P1 | P2 | P3 | P4 |
+0   5   13   19   25
+
+Average Turnaround Time: 11.50
+Average Waiting Time: 6.50
+*/
