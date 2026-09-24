@@ -63,3 +63,39 @@ int main() {
 
     return 0;
 }
+
+/*computer@computerVY:~$ gcc page_replacement.c
+computer@computerVY:~$ ./a.out
+Enter number of incoming pages: 12
+Enter the page reference sequence:
+2
+3
+3
+1
+5
+2
+4
+5
+3
+2
+2
+5
+Enter number of frames: 3
+
+Page	Frames
+2	2 - - 	(Fault)
+3	2 3 - 	(Fault)
+3	2 3 - 	(Hit)
+1	2 3 1 	(Fault)
+5	5 3 1 	(Fault)
+2	5 2 1 	(Fault)
+4	5 2 4 	(Fault)
+5	5 2 4 	(Hit)
+3	3 2 4 	(Fault)
+2	3 2 4 	(Hit)
+2	3 2 4 	(Hit)
+5	3 5 4 	(Fault)
+
+Total Hits: 4
+Total Page Faults: 8
+*/
