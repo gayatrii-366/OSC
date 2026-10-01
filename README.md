@@ -32,4 +32,6 @@ The programs are grouped into four primary categories:
 │
 └── Inter-Process Communication & Synchronisation
     ├── pipe.c                # Unidirectional IPC using anonymous pipes
-    └── readers_writers.c     # Classical Readers-Writers problem using POSIX semaphores
+    └── readers_writers.c     # Classical Readers-Writers problem using POSIX semaphore
+├── Deadlock Management
+│   └── bankers.c             # Deadlock avoidance & safe state detection (Banker's Algorithm)
