@@ -104,3 +104,25 @@ int main()
 
     return 0;
 }
+
+/*computer@computerVY:~$ gcc bankers.c
+computer@computerVY:~$ ./a.out
+Enter number of processes: 5
+Enter number of resources: 3
+Enter Allocation Matrix:
+0 1 0
+2 0 0
+3 0 2
+2 1 1
+0 0 2
+Enter Max Matrix:
+7 5 3
+3 2 2
+9 0 2
+2 2 2 
+4 3 3
+Enter Available Resources:
+3 3 2
+
+System is in safe state.
+Safe Sequence: P1 -> P3 -> P4 -> P0 -> P2*/
